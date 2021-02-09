@@ -1,13 +1,15 @@
-### STRONG TYPE NEXTJS 
-
+### STRONG TYPE NEXTJS
 
 ### INIT
 
-* ```npm i react react-dom next```
-* ```touch tsconfig.json```
-* ```npm i --save-dev typescript```
-* ```npm i --save-dev @types/react @types/react-dom @types/node```
-* ```mkdir pages```
+- `npm i react react-dom next`
+- `touch tsconfig.json`
+- `npm i --save-dev typescript`
+- `npm i --save-dev @types/react @types/react-dom @types/node`
+- `mkdir pages` 
+- `npm i -D graphql-let @graphql-codegen/cli @graphql-codegen/plugin-helpers @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo yaml-loader`
+- `npm i @apollo/client graphql`
+- `npx graphql-let init`
 
 #### Custom Script (package.json)
 
@@ -19,9 +21,9 @@
   }
 ```
 
-### RUN COMMAND 
+### RUN COMMAND
 
-* ```npm run dev```
+- `npm run dev`
 
 #### SAMPLE CONSOLE
 
@@ -32,7 +34,8 @@ We detected TypeScript in your project and created a tsconfig.json file for you.
 event - compiled successfully
 
 ```
-#### SAMPLE ```tsconfig.json```
+
+#### SAMPLE `tsconfig.json`
 
 ```
 {
@@ -66,5 +69,3 @@ event - compiled successfully
   ]
 }
 ```
-
-
