@@ -12,7 +12,7 @@ module.exports = {
       use: [options.defaultLoaders.babel, { loader: "graphql-let/loader" }],
     });
 
-    cconfig.module.rules.push({
+    config.module.rules.push({
       test: /\.ya?ml$/,
       type: "json",
       use: "yaml-loader",
