@@ -19,7 +19,7 @@ function createApolloClient() {
     return {
       headers: {
         ...headers,
-        authorization: token ? `Beader ${token}` : "",
+        authorization: token ? `Bearer ${token}` : "",
       },
     };
   });
