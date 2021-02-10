@@ -32,6 +32,7 @@ export default function SignIn() {
             label="Email"
             required
           />
+          <Box pb={2.5} />
           <TextField
             value={password}
             onChange={(e) => setPassword(e.target.value)}
